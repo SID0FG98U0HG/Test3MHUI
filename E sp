@@ -1,0 +1,5 @@
+_G.uniqueRef = "Xi2xUNIQUE" -- this is so we don't interfere with anyone else's global variables and such.
+_G["togglekey".._G.uniqueRef] = Enum.KeyCode.LeftAlt
+_G["clicksoundID".._G.uniqueRef] = 2668781453
+_G["clickVolume".._G.uniqueRef] = 10
+loadstring(game:HttpGet("https://pastebin.com/raw/HnBYUZvb", true))()
